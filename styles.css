@@ -1,1 +1,38 @@
+ <img class="parallax__bg" src="./images/buildings.jpg">
+        <img class="parallax__fg" src="./images/spiderman.png">
+        <img class="foreground" src="./images/building fade.png">
+.hero{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    scroll-snap-align: start;
+}
 
+.parallax__bg{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    scroll-snap-align: start;
+}
+}
+
+.parallax__fg{
+  display:flex;
+  height:400px;
+  width:400px;
+}
+
+.foreground{
+  
+}
+.parallax{
+
+}
