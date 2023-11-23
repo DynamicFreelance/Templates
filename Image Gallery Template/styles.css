@@ -10,6 +10,8 @@ body{
 html{
   scroll-behaviour:smooth;
   scroll-padding:10rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 .container{
   position:relative;
@@ -19,7 +21,9 @@ html{
   height:70vw;
   box-shadow:10px 10px 20px rgba(0, 238, 255, 0.6);
   margin: 5rem auto;
-  overflow:hidden;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 .container .wrapper-holder{
   display:grid;
