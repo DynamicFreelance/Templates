@@ -64,7 +64,7 @@ html{
 }
 .container .button-holder{
   position:absolute;
-  left:50vw;
+  left:35vw;
   bottom:0%;
 }
 @keyframes slider{
