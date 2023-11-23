@@ -24,7 +24,7 @@ body{
   width:100%;
 }
 .container #slider-img-1{
-  background-image: url(./images/D-Tech Logo.png);
+  background-image: url("./images/D-Tech Logo.png");
   background-position: center;
   background-size:cover;
 }
@@ -34,7 +34,7 @@ body{
   background-size:cover;
 }
 .container #slider-img-3{
-  background-image: url(./images/Headshot C.JPG);
+  background-image: url("./images/Headshot C.JPG");
   background-position: center;
   background-size:cover;
 }
