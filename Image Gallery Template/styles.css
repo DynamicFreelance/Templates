@@ -13,7 +13,7 @@ body{
 .container .wrapper{
   width:75vw;
   height:70vw;
-  box-shadow:10px 10px 20px rgba(0,0,50, 0.6);
+  box-shadow:10px 10px 20px rgba(0, 238, 255, 0.6);
   margin: 5rem auto;
   overflow:hidden;
 }
@@ -44,7 +44,7 @@ body{
   background-size:cover;
 }
 .container .button-holder .button{
-  background-color: white;
+  background-color: rgb(0, 238, 255);
   width:15px;
   height:15px;
   border-radius:15px;
@@ -52,7 +52,7 @@ body{
   margin:.3rem;
 }
 .button:hover{
-  box-shadow:0px 0px 7px 4px rgba(0,0,50,0.6);
+  box-shadow:0px 0px 7px 4px rgba(0, 238, 255,0.6);
 }
 .container .button-holder{
   position:absolute;
