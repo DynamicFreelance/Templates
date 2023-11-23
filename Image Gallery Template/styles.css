@@ -7,10 +7,12 @@ body{
   background-repeat:no-repeat;
   background-attachment:fixed;
 }
-.container{
-  position:relative;
+html{
   scroll-behaviour:smooth;
   scroll-padding:10rem;
+}
+.container{
+  position:relative;
 }
 .container .wrapper{
   width:75vw;
