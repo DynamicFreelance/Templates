@@ -9,6 +9,8 @@ body{
 }
 .container{
   position:relative;
+  scroll-behaviour:smooth;
+  scroll-padding:10rem;
 }
 .container .wrapper{
   width:75vw;
