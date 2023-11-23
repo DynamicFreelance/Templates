@@ -21,13 +21,13 @@ html{
   height:70vw;
   box-shadow:10px 10px 20px rgba(0, 238, 255, 0.6);
   margin: 5rem auto;
-  scroll-snap-type: x mandatory;
   overflow-x: auto;
   overflow-y: hidden;
 }
 .container .wrapper-holder{
   display:grid;
   grid-template-columns: repeat(4,100%);
+  scroll-snap-type: x mandatory;
   height:100%;
   width:100%;
 }
