@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+.pointer{
+    position: absolute;
+    z-index: 1;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(0,50,50);
+    background-color: rgb(0,50,50);
+    border-radius: 50%;
+    pointer-events:none;
+    box-sizing: border-box;
+    transition:0.2s;
+}
+body{
+    cursor: none;
+}
+.pointer1{
+   transition: 0.05s;
+    scale: 1;
+    opacity:1;
+}
+.pointer2{
+   transition: 0.1s;
+    scale: 0.9;
+    opacity:0.8;
+}
+.pointer3{
+   transition: 0.15s;
+    scale: 0.8;
+    opacity:0.6;
+}
+.pointer4{
+   transition: 0.2s;
+    scale: 0.7;
+    opacity:0.4;
+}
+.pointer5{
+   transition: 0.25s;
+    scale: 0.6;
+    opacity:0.2;
+}
+@media screen and (max-width: 880px){
+    .pointer{
+        display: none;
+    }
+}
+@keyframes Slide{
+    from {
+        margin-top: 100%;
+        opacity: 0;
+    }
+    to{
+        margin-top: 0%;
+        opacity: 1;
+    }
+}
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
