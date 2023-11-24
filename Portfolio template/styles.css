@@ -92,7 +92,7 @@ html,body
     align-items:center;
     position:relative;
 }
-.Home__container{
+.home__container{
     position:absolute;
     bottom:3rem;
     left:50vw;
@@ -102,23 +102,29 @@ html,body
     padding:1rem;
     margin:1rem;
 }
-.Home__content p{
+.home__content p{
     color: black;
     font-size: 0.5;
     text-decoration: none;
     padding: 0rem 0.5rem;
 }
-.Home__content h1{
+.home__content h1{
     color: black;
     font-size: 1.5;
     text-decoration: none;
     padding: 0rem 1rem;
 }
-.Home__content{
+.home__content{
     display:flex;
     flex-direction:column;
     margin:3rem;
     text-align:center;
     justify-content:center;
     align-items:center;
+}
+.headshot{
+    width:100%
+    height:100%;
+    padding:1rem 1rem;
+    margin-right:4rem;
 }
