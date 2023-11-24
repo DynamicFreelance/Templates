@@ -84,9 +84,18 @@ html,body
     #check:checked ~ .navbar__menu {right: 0;}
 }
 
-.Home__container{
+.Home{
     width:100vw;
     height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+.Home__container{
+    position:absolute;
+    bottom:3rem;
+    left:50vw;
     display:flex;
     justify-content:center;
     align-items:center;
