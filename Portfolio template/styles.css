@@ -169,7 +169,7 @@ html,body
 .info__1{
     display:flex;
     flex-direction:column;
-    padding:1.5rem;
+    padding:2.5rem;
 }
 .info__1 h1, .info__2 h1{
     color:black;
@@ -184,5 +184,5 @@ html,body
 .info__2{
      display:flex;
     flex-direction:column;
-    padding:1.5rem;
+    padding:2.5rem;
 }
