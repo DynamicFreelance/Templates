@@ -172,12 +172,12 @@ html,body
 }
 .info__1 h1, .info__2 h1{
     color:black;
-    font-size:1rem;
+    font-size:1.5rem;
     font-weight: bold;
 }
 .info__1 p, .info__2 p{
     color:black;
-    font-size:0.5rem;
+    font-size:0.8rem;
     text-decoration: none;
 }
 .info__2{
