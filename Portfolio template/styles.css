@@ -93,8 +93,6 @@ html,body
     position:relative;
 }
 .home__container{
-    position:absolute;
-    bottom:3rem;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -116,7 +114,7 @@ html,body
 .home__content{
     display:flex;
     flex-direction:column;
-    margin:3rem;
+    margin:2rem;
     text-align:center;
     justify-content:center;
     align-items:center;
@@ -125,5 +123,5 @@ html,body
     width:100%
     height:100%;
     padding:1rem 1rem;
-    margin-right:4rem;
+    margin-right:0.5rem;
 }
